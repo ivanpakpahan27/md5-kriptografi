@@ -22,5 +22,6 @@ for password in pwdfile:
         print("\nPassword found!.\nPasswordnya : %s" %
               password.strip())
         print("Duration(s) : ", t_time)
+        break
     else:
         print("Password not found")

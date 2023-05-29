@@ -19,9 +19,9 @@ for password in pwdfile:
     t_time = end-start
 
     if md5_hash.strip() == md5.hexdigest():
-        print("\nPassword found!.\nPasswordnya : %s" %
+        print("\nPassword found!.\nPassword : %s" %
               password.strip())
         print("Duration(s) : ", t_time)
         break
     else:
-        print("Password not found")
+        print("String doesn't matching")
